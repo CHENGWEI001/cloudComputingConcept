@@ -24,3 +24,6 @@
 
     I think in this case, most likely initially the node would be treat as fail -> remove even peer recieved its new ping msg ( with fresh heartbeat) , fresh heartbeat is lower than value store in peer's table.
     However, even we have this case though after TREMOVE, the record will be removed from the membership list, then next time fresh heartbeat comes again , it would be able to include into the list.
+
+# MP2
+* my note : https://1drv.ms/b/s!AkDa-F0IatUWtSLs3m7aep8-poGo
